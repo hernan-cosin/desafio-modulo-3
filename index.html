@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Hernán Cosin</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="./media/logo.svg" alt="logo" class="header-logo">
+            
+            <div class="menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <nav class="nav">
+                <a href="#about" class="nav-link">Quien soy</a>
+                <a href="#services" class="nav-link">Servicios</a>
+                <a href="#contact" class="nav-link">Escribime</a>
+            </nav>
+        </header>
+        <div class="main-content">
+            <h1 class="title">Bienvenidxs a mi sitio</h1>
+            <img src="./media/img/presentacion.png" alt="retrto" class="retrato">
+        </div>
+    </main>
+    <section class="about" id="about">
+        <div class="about-container">
+
+            <div class="about-text">
+                <h2 class="about-title subtitle">Soy Hernán</h2>
+                <p class="about-paragraph">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies dolor.</p>
+            </div>
+            <div class="about-svg">
+                <img src="./media/check.svg" alt="check verde" class="check">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="services-container">
+            <div class="services-title">
+                <h2 class="titulo-service subtitle">Mis servicios</h2>
+            </div>
+            <div class="cards">
+                <div class="card-one card">
+                    <img src="./media/desktop.svg" alt="monitor svg">
+                    <h3 class="card-subtitle">Hago Cosas</h3>
+                    <p  class="card-info">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+                <div class="card-two card">
+                    <img src="./media/desktop.svg" alt="monitor svg">
+                    <h3 class="card-subtitle">Y más cosas</h3>
+                    <p  class="card-info">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+                <div class="card-three card">
+                    <img src="./media/desktop.svg" alt="monitor svg">
+                    <h3 class="card-subtitle">Y también otras cosas</h3>
+                    <p  class="card-info">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-title">
+                <h3 class="titulo-contacto subtitle">Escribime</h3>
+            </div>
+            <form class="formulario">
+                <div class="fieldset">
+                    <label class="label" for="name">NOMBRE</label>    
+                    <input id="name" type="text" class="input">
+                </div>
+            <form>
+                <div class="fieldset">
+                    <label class="label" for="email">EMAIL</label>
+                    <input id="email" type="email" class="input">
+                </div>
+            <form>
+                <div class="fieldset">
+                    <label class="label" for="message">Mensaje</label>
+                    <textarea id="message" class="textarea"></textarea>
+                </div>
+                <button class="boton-formulario">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="marca">
+                <img src="./media/logo.svg" alt="logo y marca registrada" class="footer-logo">
+                <p class="copyright">&copy 2021 Hernán Cosin.</p>
+        </div>
+        <div class="redes">
+                <a href="https://www.instagram.com/hernan_cosin/" class="link-red"><img class="icon-red" src="./media/redes/instagram.png" alt="logo instagram">Instagram</a>
+                <a href="https://www.linkedin.com/in/hernan-cosin-492093129/" class="link-red"><img class="icon-red" src="./media/redes/linkedin.png" alt="logo linkedin">Linkedin</a>
+                <a href="https://github.com/hernan-cosin" class="link-red"><img class="icon-red" src="./media/redes/github.png" alt="logo github">Github</a>
+        </div>
+    </footer>
+</body>
+</html>
