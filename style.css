@@ -18,7 +18,6 @@ body {
 
 .header {
   width: 100%;
-  /* height: 70px; */
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -50,7 +49,6 @@ body {
 }
 
 .line {
-  /* width: 32px; */
   height: 5px;
   background-color: #000;
 }
@@ -75,7 +73,6 @@ body {
   .nav-link {
     text-decoration: none;
     color: #000;
-
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -98,7 +95,6 @@ body {
 .title {
   width: 291px;
   margin: 30px 0 0 0;
-  /* padding: 0 42px; */
   font-size: 48px;
   font-weight: 700;
   text-align: center;
@@ -116,7 +112,6 @@ body {
 
 .retrato {
   max-width: 318px;
-  /* border: solid; */
 }
 
 @media (min-width: 769px) {
@@ -144,7 +139,6 @@ body {
 @media (min-width: 769px) {
   .about-container {
     width: 840px;
-    /* padding: 132px 300px 170px 300px; */
     flex-direction: row-reverse;
     justify-content: space-between;
   }
@@ -154,7 +148,6 @@ body {
 }
 
 .subtitle {
-  /* margin: 0; */
   font-size: 32px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -184,7 +177,6 @@ body {
 
   .about-text {
     width: 532px;
-    /* margin-left: 90px; */
   }
 }
 
@@ -273,7 +265,6 @@ body {
 
 @media (min-width: 769px) {
   .contact-container {
-    /* border: solid white; */
     display: flex;
     flex-direction: row;
     width: 724px;
@@ -284,7 +275,6 @@ body {
   margin: 0;
   font-size: 48px;
   font-weight: bold;
-  /* border: solid white; */
 }
 
 .formulario {
@@ -366,12 +356,10 @@ body {
 }
 
 .redes {
-  /* border: solid; */
   height: 138px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .link-red {
